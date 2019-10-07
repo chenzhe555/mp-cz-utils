@@ -2,7 +2,6 @@
 const defaultAPIs = [
     'showToast'
 ];
-
 /**
  * 将微信中的API转换成Promise实现
  * @param {array}} funcs WX的API数组
@@ -27,12 +26,7 @@ function wxAPIPromise(funcs = defaultAPIs) {
     return obj;
 }
 
-function test() {
-    console.log('wxAPIPromise-test');
-}
-
 export {
-    wxAPIPromise,
-    test
+    wxAPIPromise
 };
 

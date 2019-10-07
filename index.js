@@ -5,7 +5,6 @@ Object.defineProperty(exports, "__esModule", {
 });
 
 var defaultAPIs = ['showToast'];
-
 /**
  * 将微信中的API转换成Promise实现
  * @param {array}} funcs WX的API数组
@@ -34,9 +33,4 @@ function wxAPIPromise() {
     return obj;
 }
 
-function test() {
-    console.log('wxAPIPromise-test');
-}
-
 exports.wxAPIPromise = wxAPIPromise;
-exports.test = test;
