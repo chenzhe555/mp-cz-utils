@@ -31,7 +31,7 @@ function test() {
     console.log('wxAPIPromise-test');
 }
 
-export default {
+export {
     wxAPIPromise,
     test
 };
