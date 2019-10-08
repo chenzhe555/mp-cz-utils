@@ -26,7 +26,7 @@ function wxAPIPromise(funcs = defaultAPIs) {
     return obj;
 }
 
-export {
+export default {
     wxAPIPromise
 };
 
