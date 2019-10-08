@@ -33,6 +33,4 @@ function wxAPIPromise() {
     return obj;
 }
 
-exports.default = {
-    wxAPIPromise: wxAPIPromise
-};
+exports.wxAPIPromise = wxAPIPromise;
